@@ -6,13 +6,11 @@ use leptos::*;
 pub async fn converse(prompt: Conversation) -> Result<String, ServerFnError> {
     use actix_web::dev::ConnectionInfo;
     use actix_web::web::Data;
+    use actix_web::web::Query;
     use leptos_actix::extract;
     use llm::models::Llama;
 
-    let model =
-        extract(|data: Data<Llama>, _connection: ConnectionInfo| async { data.into_inner() })
-            .await
-            .unwrap();
+    let model: Data<Llama> = extract().await.unwrap();
 
     use llm::KnownModel;
     let CHARACTER_NAME = "### Assistant";
@@ -50,7 +48,7 @@ pub async fn converse(prompt: Conversation) -> Result<String, ServerFnError> {
                     .as_str()
                     .into(),
                 parameters: &llm::InferenceParameters::default(),
-                play_back_previus_token: false,
+                play_back_previous_tokens: false,
                 maximum_token_count: None,
             },
             &mut Default::default(),
