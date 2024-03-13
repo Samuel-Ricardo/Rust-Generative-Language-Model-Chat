@@ -1,6 +1,9 @@
 use leptos::{html::input, server_fn::response, *};
 use leptos_meta::*;
 
+mod components;
+use components::chat_area::ChatArea;
+
 use crate::{
     api::converse,
     model::conversation::{Conversation, Message},
