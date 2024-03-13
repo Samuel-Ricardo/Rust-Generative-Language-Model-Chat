@@ -13,6 +13,11 @@ async fn main() -> std::io::Result<()> {
     let routes = generate_route_list(App);
     println!("listening on http://{}", &addr);
 
+    #[get("/style.css")]
+    async fn css() -> impl Responder {
+        actix_files::NamedFile::open_async("./style/output.css").await
+    }
+
     let model = web::Data::new(get_language_model());
 
     HttpServer::new(move || {
