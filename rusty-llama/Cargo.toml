@@ -21,6 +21,7 @@ llm = { git = "https://github.com/rustformers/llm.git", branch = "main", optiona
   "metal",
 ] }
 rand = { version = "0.8.5", optional = true }
+dotenv = { version = "0.15.0", optional = true }
 
 [features]
 csr = ["leptos/csr", "leptos_meta/csr", "leptos_router/csr"]
@@ -31,6 +32,7 @@ ssr = [
   "dep:leptos_actix",
   "dep:llm",
   "dep:rand",
+  "dep:dotenv",
   "leptos/ssr",
   "leptos_meta/ssr",
   "leptos_router/ssr",
