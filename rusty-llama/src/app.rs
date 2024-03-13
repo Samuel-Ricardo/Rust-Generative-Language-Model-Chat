@@ -3,6 +3,7 @@ use leptos_meta::*;
 
 mod components;
 use components::chat_area::ChatArea;
+use components::type_area::TypeArea;
 
 use crate::{
     api::converse,
