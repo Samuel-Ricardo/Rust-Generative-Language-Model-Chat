@@ -56,7 +56,7 @@
 | 🏗️ - Technologies and Concepts Studied:
 </h2>
 
-> <a href='https://spring.io/'> <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" /> </a>
+> <a href='https://www.rust-lang.org/'> <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" /> </a>
 
 <br>
 
@@ -74,8 +74,59 @@
 > Among Others...
 > <br>
 
+<h2 id="run-project"> 
+   👨‍💻 | How to use
+</h2>
+
+<br>
+
+### Open your Git Terminal and clone this repository
+
+```git
+  $ git clone "git@github.com:Samuel-Ricardo/Rust-Generative-Language-Model-Chat.git"
+```
+
+### Make Pull
+
+```git
+  $ git pull "git@github.com:Samuel-Ricardo/Rust-Generative-Language-Model-Chat.git"
+```
+
+<br>
+
+This application use `Docker` so you dont need to install and cofigurate anything other than docker on your machine.
+
+> <a target="_blank" href="https://www.docker.com/"> <img width="48px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" /> </a>
+
+<br>
+
+Navigate to project folder and run it using `docker-compose`
+
+```bash
+
+  # After setup docker environment just run this commmand on root project folder:
+
+  $ docker-compose up --build   # For First Time run this command
+
+  $ docker-compose up           # to run project
+
+
+```
+
+```bash
+
+  #Apps Running on:
+
+  $ APP: http://localhost:3000
+
+  See more: docker-compose.yaml
+
+```
+
+<br>
+
 #
 
-<h2 id="app">
-  💻 | Application:
+<h2 id="author">
+  :octocat: | Author:  
 </h2>
