@@ -43,3 +43,15 @@
 <br>
 
 <p id="project"/>
+
+<h2> | 🛰️ About:  </h2>
+
+<p align="justfy">
+    Chat online build With Leptos and Rust using WebAssembly, you can talk with Open Source AI Llama Models in real time, locally, using your own computer. To style i use TailwindCSS.
+</p>
+
+<br>
+
+<h2 id="techs">
+| 🏗️ - Technologies and Concepts Studied:
+</h2>
