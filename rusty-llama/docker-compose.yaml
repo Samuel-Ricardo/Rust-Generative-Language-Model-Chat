@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    environment:
+      - LLAMA_MODEL_PATH=C:/Users/Desktop/Desktop/Projects/Machine_Learning/wizard_vicuna/Wizard-Vicuna-7B-Uncensored.ggmlv3.q8_0.bin
+    ports:
+      - "3000:3000"
