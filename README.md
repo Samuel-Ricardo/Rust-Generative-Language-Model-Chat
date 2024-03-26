@@ -1,7 +1,7 @@
 # Rust-Generative-Language-Model-Chat
 
 <p align="center"> 
-  <a href="https://spring.io/" target="_blank">
+  <a href="https://www.rust-lang.org/" target="_blank">
     <img width="80%" src="https://cdn.discordapp.com/attachments/850761643444535347/1217522279009747024/image.png?ex=660d8f7b&is=65fb1a7b&hm=2898c99bc88c123a26db400de8641df5acb1df2f80956fa664e3b4164bfa0be3&"/>
   </a> 
 </p>
@@ -16,9 +16,7 @@
   |&nbsp;&nbsp;
   <a style="color: #8a4af3;" href="#project">Overview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a style="color: #8a4af3;" href="#techs">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a style="color: #8a4af3;" href="#app">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a style="color: #8a4af3;" href="#routes">Routes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a style="color: #8a4af3;" href="#run-project">Run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a style="color: #8a4af3;" href="#run-project">Run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
   <a style="color: #8a4af3;" href="#author">Author</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -130,3 +128,23 @@ Navigate to project folder and run it using `docker-compose`
 <h2 id="author">
   :octocat: | Author:  
 </h2>
+
+> <a target="_blank" href="https://www.linkedin.com/in/samuel-ricardo/"> <img width="350px" src="https://github.com/Samuel-Ricardo/bolao-da-copa/blob/main/readme_files/IMG_20220904_220148_188.jpg?raw=true"/> <br> <p> <b> - Samuel Ricardo</b> </p></a>
+
+<h1>
+  <a herf='https://github.com/Samuel-Ricardo'>
+    <img src='https://img.shields.io/static/v1?label=&message=Samuel%20Ricardo&color=black&style=for-the-badge&logo=GITHUB'> 
+  </a>
+
+  <a herf='https://www.instagram.com/samuel_ricardo.ex/'>
+    <img src='https://img.shields.io/static/v1?label=&message=Samuel.ex&color=black&style=for-the-badge&logo=instagram'> 
+  </a>
+
+  <a herf='https://twitter.com/SamuelR84144340'>
+    <img src='https://img.shields.io/static/v1?label=&message=Samuel%20Ricardo&color=black&style=for-the-badge&logo=twitter'> 
+  </a>
+
+   <a herf='https://www.linkedin.com/in/samuel-ricardo/'>
+    <img src='https://img.shields.io/static/v1?label=&message=Samuel%20Ricardo&color=black&style=for-the-badge&logo=LinkedIn'> 
+  </a>
+</h1>
