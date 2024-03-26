@@ -55,3 +55,27 @@
 <h2 id="techs">
 | 🏗️ - Technologies and Concepts Studied:
 </h2>
+
+> <a href='https://spring.io/'> <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" /> </a>
+
+<br>
+
+- Leptos
+- Rust
+- WebAssembly
+- Docker
+- TailwindCSS
+- SASS
+- Hugging Face
+- Llama
+- Actix
+- Serde
+
+> Among Others...
+> <br>
+
+#
+
+<h2 id="app">
+  💻 | Application:
+</h2>
